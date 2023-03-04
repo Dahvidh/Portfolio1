@@ -1,0 +1,111 @@
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a{
+  color: #1d1d24;
+  position: relative;
+  padding: 5px 0;
+}
+nav ul li a:hover{
+  color: #fd4766;
+}
+nav ul li a:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #fd4766;
+  transition: .3s;
+  bottom: 0;
+}
+nav ul li a:hover:after{
+  width: 100%;
+}
+
+.content h1 span{
+  color:  #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%;
+}
+
+.services .boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #ede4e4;
+  width: 100%;
+  }
+  .services .boxes .box{
+    margin: 20px 0;
+    width: calc(100% / 4 - 20px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    border-color: #fd4766;
+    cursor: default;
+    transition: all 0.4s ease;
+  }
+  .services .boxes .box:hover{
+    background: #fd4766;
+    color: #fff;
+  }
+  .services .boxes .box .icon{
+    height: 50px;
+    width: 50px;
+    background: #d5d5d5;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 auto 10px auto;
+    transition: all 0.4s ease;
+  }
+  .boxes .box:hover .icon{
+    background-color: #fff;
+    color: #fd4766;
+  }
+  .services .boxes .box:hover .topic,
+  .services .boxes .box:hover p{
+    color: #0E2431;
+    transition: all 0.4s ease;
+  }
+  .services .boxes .box:hover .topic,
+  .services .boxes .box:hover p{
+    color: #fff;
+  }
+  /* Contact Me CSS */
+  .contact{
+    background: #fd4766;
+  }
+  .contact .content{
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  .contact .text{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  /* Footer CSS */
+  footer{
+    background: #fd4766;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  footer .text span{
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+  }
+  footer .text span a{
+    font-weight: 500;
+    color: #FFF;
+  }
+  footer .text span a:hover{
+    text-decoration: underline;
+  }

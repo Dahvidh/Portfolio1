@@ -1,0 +1,79 @@
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+  }
+  nav ul li a:hover{
+    color: #fd4766;
+  }
+  nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fd4766;
+    transition: .3s;
+    bottom: 0;
+  }
+  nav ul li a:hover:after{
+    width: 100%;
+  }
+
+  .btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+}
+.btn:hover{
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}
+  
+.contact{
+    background: #fd4766;
+  }
+  .contact .content{
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  .contact .text{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  /* Footer CSS */
+  footer{
+    background: #fd4766;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  footer .text span{
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+  }
+  footer .text span a{
+    font-weight: 500;
+    color: #FFF;
+  }
+  footer .text span a:hover{
+    text-decoration: underline;
+  }
